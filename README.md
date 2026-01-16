@@ -48,3 +48,8 @@ Este site está disponível publicamente através do **GitHub Pages**. Você pod
 ## Contribuindo
 
 Contribuições são bem-vindas! Se você tiver sugestões ou melhorias, sinta-se à vontade para abrir um **pull request**.
+
+## 👩‍💻 Autora
+**Tayene Ramires**  
+Estudante de Sistemas de Informação | Full Stack em formação  
+JavaScript • TypeScript • Node.js • NestJS • HTML • CSS • SQL

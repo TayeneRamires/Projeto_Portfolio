@@ -7,6 +7,8 @@
     <meta name="author" content="Generation Brasil">
     <meta name="keywords" content="HTML, CSS, JavaScript">
     <link rel="icon" type="image/svg" href="./assets/img/favicon.svg" />
+ 
+
     
     <!-- Link para a Folha de Estilo da Página - CSS -->
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -19,7 +21,7 @@
 <header>
 
     <!-- Título do cabeçalho -->
-     <h1>Tayene Ramires</h1>
+     <h1 class="h1">Tayene Ramires</h1>
 
      <!-- Menu de Navegação -->
       <nav>
@@ -39,7 +41,7 @@
 
 
     <!-- Título da Seção -->
-     <h2>Sobre mim</h2>
+     <h2 class="h2">Sobre mim</h2>
 
      <article>
        
@@ -58,26 +60,40 @@
 
      </article>
 </section>
+<section id="tecnologias">
+  <h2>Tecnologias</h2>
 
-    <!-- Seção Vídeo -->
-     <section id="video">
+  <div class="badges">
+    <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black&style=for-the-badge" alt="JavaScript">
+    <img src="https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white&style=for-the-badge" alt="TypeScript">
+    <img src="https://img.shields.io/badge/Node.js-339933?logo=nodedotjs&logoColor=white&style=for-the-badge" alt="Node.js">
+    <img src="https://img.shields.io/badge/NestJS-E0234E?logo=nestjs&logoColor=white&style=for-the-badge" alt="NestJS">
+    <img src="https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white&style=for-the-badge" alt="HTML5">
+    <img src="https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white&style=for-the-badge" alt="CSS3">
+  </div>
+</section>
 
-        <!-- Título da Seção -->
-        <h2>Meu vídeo favorito:</h2>
+      <!-- Seção vídeo -->
+<section id="video">
 
-        <!-- Vídeo da Seção -->
-        <figure>
-            <iframe
-               width="560"
-               height="315"
-               src="https://www.youtube.com/embed/S9uPNppGsGo"
-               frameborder="0"
-               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-               allowfullscreen
-               ></iframe>
-        </figure>
+      <!-- Título da Seção  -->
+  <h2>Meu vídeo favorito: </h2>
 
-     </section>
+      <!-- Vídeo da Seção  -->
+    <figure>
+
+        <iframe 
+    width="560" 
+    height="315" 
+    src="https://www.youtube.com/embed/S9uPNppGsGo?si=fxRpjY-uGIzvRIOj" 
+    title="YouTube video player" 
+    frameborder="0" 
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen
+    ></iframe>
+</figure>
+
+</section>
 
 </main>
 
@@ -100,8 +116,8 @@
         Feito com <span class="heart">❤️</span> por Tayene Ramires - 2026
     </h3>
 
-</footer>
+        </footer>
 
-</body>
+    </body>
 
 </html>
